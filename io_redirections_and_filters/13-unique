@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | sort | uniq -c | '$1 == 1 {print $2}'
+cat - | sort | uniq -c | print '$1 == 1 {$2i}'
