@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p folder1/folder1/folder1 folder1/folder2 folder2/folder1 && find -type d ! -path . | wc -l'
+find . -type d -not -name '.' -not -name '..' | wc -l
