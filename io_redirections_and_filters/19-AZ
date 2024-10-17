@@ -1,2 +1,2 @@
 #!/bin/bash
-cat fichier.txt | tr 'Ac' 'Ze''
+cat 19-AZ | tr 'Ac' 'Ze''
