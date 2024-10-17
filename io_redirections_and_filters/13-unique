@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | sort | uniq -c | print '$1 == 1 {$2i}'
+cat list_1 | sort --ignore-case | uniq -u'
