@@ -1,2 +1,2 @@
 #!/bin/bash
-echo |tr 'Ac' 'Ze'
+cat fichier.txt | tr 'Ac' 'Ze''
